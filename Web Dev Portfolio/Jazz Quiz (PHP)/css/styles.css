@@ -1,0 +1,43 @@
+body {
+  background: url('https://pixabay.com/get/5ee9d6404e50b10ff3d89938b977692b083edbe35553784874287f/symphony-hall-893342_640.jpg?attachment');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+}
+.right-answer {
+  color: green;
+  font-size: 1.2em;
+}
+.wrong-answer {
+  color: red;
+  font-size: 1.2em;
+}
+h1 {
+  text-align: center;
+}
+.grade {
+  font-size: 1.2em;
+}
+.pass {
+  font-size: 1.2em;
+  color: green;
+}
+.fail {
+  font-size: 1.2em;
+  color: red;
+}
+form {
+  border: 20px 10px 20px 10px;
+  padding: 5px;
+  margin: 10px;
+  background-color: lightgrey;
+}
+.controls {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
